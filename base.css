@@ -1,0 +1,22 @@
+/* Eliminar márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Restablecer tipografía y elementos de bloque */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* Eliminar bordes en imágenes */
+img {
+  border: none;
+}
+
+/* Asegurar que los elementos HTML usen un modelo de caja consistente */
+html {
+  scroll-behavior: smooth;
+}
